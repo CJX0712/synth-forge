@@ -1,5 +1,12 @@
 # SynthForge · 合成锻造炉
 
+<p align="center">
+  <a href="https://github.com/CJX0712/synth-forge/actions/workflows/ci.yml"><img src="https://github.com/CJX0712/synth-forge/actions/workflows/ci.yml/badge.svg" alt="ci"></a>
+  <a href="https://github.com/CJX0712/synth-forge/releases"><img src="https://img.shields.io/github/v/release/CJX0712/synth-forge?sort=semver" alt="release"></a>
+  <a href="https://github.com/CJX0712/synth-forge/blob/main/LICENSE"><img src="https://img.shields.io/github/license/CJX0712/synth-forge" alt="license"></a>
+  <img src="https://img.shields.io/badge/author-%E6%99%A8%E6%98%9F-1f6feb" alt="author">
+</p>
+
 单文件离线合成器。4 种基础波形（正弦/方波/锯齿/三角）+ ADSR 包络 + 确定性旋律种子，浏览器内用 WebAudio 真实播放，canvas 实时绘制波形。
 
 > 波形采样是纯数学——不靠耳朵判断，无头就能验证每个采样点的相位、符号、频率与包络。
